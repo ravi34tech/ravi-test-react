@@ -1,12 +1,13 @@
 import './App.css'
-import Counter from './components/Counter'
+import CounterReducer from './components/CounterReducer'
 
 function App() {
 
   return (
     <>
       <h1>React + Git Page + Deployment </h1>
-      <Counter></Counter>
+      {/* <Counter></Counter> */}
+      <CounterReducer />
     </>
   )
 }
